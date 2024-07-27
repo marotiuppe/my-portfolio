@@ -63,7 +63,7 @@ export class SoftwareSkillComponent {
         fontAwesomeClassname: "bx bx-network-chart"
       },{
         skillName: "SVN",
-        fontAwesomeClassname: "bx bx-code"
+        fontAwesomeClassname: "bx bx-code svn"
       },{
         skillName: "VS Code",
         fontAwesomeClassname: "bx bx-laptop"

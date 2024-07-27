@@ -30,3 +30,43 @@
 .subTitle {
   color: #868e96;
 }
+
+.softskills {  
+  --java-color: #f89820; /* Java */  
+  --spring-color: #6db33f; /* Spring */  
+  --hibernate-color: #fea355; /* Hibernate */  
+  --microservices-color: #4b0082; /* Microservices */  
+  --html-color: #e44d26; /* HTML */  
+  --javascript-color: #f7df1e; /* JavaScript */  
+  --angular-color: #dd0031; /* Angular */  
+  --react-color: #61dafb; /* React */  
+  --jsp-color: #f00; /* JSP */  
+  --maven-color: #c71f3a; /* Maven */  
+  --sql-color: #003B57; /* SQL Database */  
+  --struts-color: #c3c3c3; /* Struts */  
+  --eclipse-color: #2c2255; /* Eclipse IDE */  
+  --git-color: #f34f29; /* GIT */  
+  --postman-color: #f56632; /* Postman */  
+  --restapi-color: #009688; /* RestAPI */  
+  --svn-color: #f00000; /* SVN */  
+  --vscode-color: #007acc; /* VS Code */  
+}  
+
+i.bx.bxl-java { color: #f89820; }  
+i.bx.bxl-spring-boot { color: #6db33f; }  
+i.bx.bx-rectangle { color:  #fea355; }  
+i.bx.bx-collection { color: #4b0082; }  
+i.bx.bxl-html5 { color: #e44d26; }  
+i.bx.bxl-javascript { color: #f7df1e; }  
+i.bx.bxl-angular { color: #dd0031; }  
+i.fa-react.fab { color: #61dafb; }  
+i.bx.bx-code { color: #f00; }  
+i.fa.fa-box { color: #27758d; }  
+i.fa.fa-database { color: #003B57;}  
+i.bx.bx-code-alt { color: #f05000; }  
+i.fa.fa-laptop-code { color: #99247c; }  
+i.bx.bxl-git { color: #2c2255; }  
+i.bx.bx-envelope { color: #f34f29; }  
+i.bx.bx-network-chart { color: #f56632; }  
+i.bx.bx-code.svn { color: #009688; }  
+i.bx.bx-laptop { color: #007acc; } 
