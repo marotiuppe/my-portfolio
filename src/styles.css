@@ -1,3 +1,6 @@
+/* src/styles.css */
+@import "../node_modules/angular-calendar/css/angular-calendar.css";
+
 @font-face {
   font-family: 'Agustina Regular';
   font-style: normal;

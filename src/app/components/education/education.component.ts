@@ -11,10 +11,10 @@ import { Component } from '@angular/core';
 export class EducationComponent {
  timeline = [
     {
-      heading: "B.Tech - Electronics/Telecommunication",
+      heading: "B.Tech - Electronics and Telecommunication",
       duration: "2021",
       subtitle: "Mumbai University, Mumbai",
-      content: "Successfully completed my B.tech in Electronics/Telecommunication from Mumbai University, Mumbai.",
+      content: "Successfully completed my B.tech in Electronics and Telecommunication from Mumbai University, Mumbai.",
       className1: "mar-right",
       className2: "prt_about_learnbox_left"
     },

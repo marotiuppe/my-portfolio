@@ -10,7 +10,7 @@ import { ContactComponent } from "../contact/contact.component";
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [HeaderComponent, GreetingComponent,HeaderComponent, GreetingComponent, SkillsComponent, EducationComponent, ProjectsComponent, ExperienceComponent, ContactComponent],
+  imports: [HeaderComponent, GreetingComponent,HeaderComponent, GreetingComponent, SkillsComponent, EducationComponent, ProjectsComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
