@@ -8,8 +8,7 @@ import { Observable } from 'rxjs';
 export class DataService {
   private apiUrl = 'https://api.example.com'; // Replace with your API URL
   private gitRepUrl = 'https://api.github.com/users/marotiuppe/repos';
-  // private gitAuthorization = '';
-  private gitAuthorization = '';
+  private gitSecrest = '';
   constructor(private http: HttpClient) {}
 
   
@@ -26,14 +25,14 @@ export class DataService {
   getAllGitReposData(): Observable<any> {
     let headers = new HttpHeaders({
       'Content-Type': 'application/json', 
-      'Authorization': this.gitAuthorization
+      'Authorization': this.gitSecrest
     });
     return this.http.get<any>(this.gitRepUrl,{ headers });
   }
   getDataByUrl(url:any): Observable<any> {
     let headers = new HttpHeaders({
       'Content-Type': 'application/json', 
-      'Authorization': this.gitAuthorization
+      'Authorization': this.gitSecrest
     });
     return this.http.get<any>(url,{headers});
   }
